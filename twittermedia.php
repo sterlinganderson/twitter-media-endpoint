@@ -41,9 +41,14 @@ require_once(dirname(__FILE__) . "/includes/EpiTwitter.php");
 =======
 session_start();
 
+<<<<<<< HEAD
 require_once(dirname(__FILE__) . "/includes/tmhOAuth.php");
 require_once(dirname(__FILE__) . "/includes/tmhUtilities.php");
 >>>>>>> Initial check in
+=======
+require_once(dirname(__FILE__) . "/includes/tmhOAuth/tmhOAuth.php");
+require_once(dirname(__FILE__) . "/includes/tmhOAuth/tmhUtilities.php");
+>>>>>>> Changed require paths for tmhOAuth files
 require_once(dirname(__FILE__) . "/includes/TwitterOAuthEcho.php");
 
 define('TWITTER_CONSUMER_KEY', get_option('twitter_media_consumer_key'));  
