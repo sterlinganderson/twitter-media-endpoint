@@ -31,8 +31,8 @@ THE SOFTWARE.
 
 session_start();
 
-require_once(dirname(__FILE__) . "/includes/tmhOAuth.php");
-require_once(dirname(__FILE__) . "/includes/tmhUtilities.php");
+require_once(dirname(__FILE__) . "/includes/tmhOAuth/tmhOAuth.php");
+require_once(dirname(__FILE__) . "/includes/tmhOAuth/tmhUtilities.php");
 require_once(dirname(__FILE__) . "/includes/TwitterOAuthEcho.php");
 
 define('TWITTER_CONSUMER_KEY', get_option('twitter_media_consumer_key'));  
